@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Taxonomy Crossword.exe" version="1.0.0.19" publicKeyToken="51df45dd79da9f11" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Taxonomy Crossword" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Taxonomy Crossword.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Taxonomy Crossword.exe" size="445952">
+      <assemblyIdentity name="Taxonomy Crossword" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>98Dxz4T+SHxMMBiDCor44d0mpwo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en-US\Taxonomy Crossword.resources.dll" size="4096">
+      <assemblyIdentity name="Taxonomy Crossword.resources" version="1.0.0.0" language="en-US" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>7AjGzzmmWBW3ZH5FdRZxKLTEIqM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="data\Above_the_Sky.mp3" size="4750022">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lTjT5YR0RX9m5/UYAKZGekFz5XY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\Data.txt" size="34413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Plf9Xv4BFEp+TgkuR22vgXKultE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\Four_Brave_Champion.mp3" size="3409310">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8vp0bZ/Z30yw5Gf9epQpjnykjq0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\Lost_and_Forgotten.mp3" size="6500226">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eHlSSxBfggzSxaZL0VVYXFEUZ+g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\Option.txt" size="9">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hXo4mAZvCPXAzMwSijQGUMJUEpY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\Raindrops_of_a_Dream.mp3" size="5345659">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+kHG7jlsVH9WkO6X8/AiwT4rPw4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\Sisters_of_Snow_Dissent.mp3" size="5498228">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2qDCoPu/GILmSuZX0QleUndRJxY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="data\Snow_Waltz.mp3" size="2970039">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9t6fHrmJ9CNMXd0BCTRhBE7gSMk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Asus-PC\Asus" issuerKeyHash="3ca503b9b7d1b041048408914244b0cd8738e5d9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>740U1IBh1BnixyrcP5TGXTQuk2I=</DigestValue></Reference></SignedInfo><SignatureValue>AWCeHoLbkrSRVSYr3RJdCcChuY58NzxQzM0dwHPYfVEGZxfRY/YE67VWOjnRliODVsMMqU8uwWK/kjhGJdibazXYmR5BfadWRoE6GixDvn5hFqZQtmEXwxUwlPojDVF8dDmxd4Exk+5/b18Ei4sptc2PxQltvWIKanDx9JyxXo0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nkyU05vyo65FLSN0VswAY34NLf7IdGvbISsAXV/rw5NgGX4RbE+dsmp2pfImTxscKvnpgLsSTKNb+sj4qv6T3z1sI2nWnPY3lrDw+as1Lon+cKoFMM5mNaFZTybbpNq0OMSEm8cd+R7aS6sXrbFV5yJD8DEZo+T8OT+ibjk0S70=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="62932e345dc6943fdc2ac7e219d46180d4148def" Description="" Url=""><as:assemblyIdentity name="Taxonomy Crossword.exe" version="1.0.0.19" publicKeyToken="51df45dd79da9f11" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Asus-PC\Asus</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>sfZh4bxE8TARc+M29MtzUhfRITs=</DigestValue></Reference></SignedInfo><SignatureValue>l/a3zGr9jQEClDMXXEdYznHBD23sgefTJmQkEeEcQ22/C/+zaQ5JSQwhQAcHAPHLXBKaxi7VG+lPaXe9cGaNUvePAwMorRCbQy00G098wq9waZI7qevkylOFXWQ/pRPfw9z368QlfYg5nLuZlYtDTgOjd9U43NaLMi6ggT0syMA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nkyU05vyo65FLSN0VswAY34NLf7IdGvbISsAXV/rw5NgGX4RbE+dsmp2pfImTxscKvnpgLsSTKNb+sj4qv6T3z1sI2nWnPY3lrDw+as1Lon+cKoFMM5mNaFZTybbpNq0OMSEm8cd+R7aS6sXrbFV5yJD8DEZo+T8OT+ibjk0S70=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQN/l/BgGcQoVHdX617ZBy7TANBgkqhkiG9w0BAQUFADAjMSEwHwYDVQQDHhgAQQBzAHUAcwAtAFAAQwBcAEEAcwB1AHMwHhcNMTMwMTA1MDkyNDQzWhcNMTQwMTA1MTUyNDQzWjAjMSEwHwYDVQQDHhgAQQBzAHUAcwAtAFAAQwBcAEEAcwB1AHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ5MlNOb8qOuRS0jdFbMAGN+DS3+yHRr2yErAF1f68OTYBl+EWxPnbJqdqXyJk8bHCr56YC7EkyjW/rI+Kr+k989bCNp1pz2N5aw8PmrNS6J/nCqBTDOZjWhWU8m26TatDjEhJvHHfke2kurF62xVeciQ/AxGaPk/Dk/om45NEu9AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEANO4FU9JZUbxb/PP8PkhwMNNtY50Jyn4k1Sb40BctHw9CNbBlusdVE1OITyAvc8ydodOQtZ759z6AW70HrryZxY91gA/9jP53TsycosN7t15eA9LuELrlqPfZIY57DLVJn+VUifmSG+ezc6ylGVAeoEjmUAkRVR16iMPnB72x5hE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
